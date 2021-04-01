@@ -1,0 +1,30 @@
+{
+    "name": "ston",
+    "version": "1.1.0",
+    "description": "Ston - React Disinfection & Sanitization Services Template",
+    "main": "index.js",
+    "scripts": {
+        "dev": "next dev",
+        "build": "next build && next export",
+        "start": "next start"
+    },
+    "author": "EnvyTheme.com",
+    "license": "ISC",
+    "dependencies": {
+        "next": "^10.0.6",
+        "next-redux-wrapper": "^6.0.2",
+        "react": "^16.14.0",
+        "react-accessible-accordion": "^3.3.4",
+        "react-datepicker": "^3.4.1",
+        "react-dom": "^16.14.0",
+        "react-modal-video": "^1.2.6",
+        "react-owl-carousel3": "^2.2.5",
+        "react-redux": "^7.2.2",
+        "react-select": "^3.2.0",
+        "react-toastify": "^6.2.0",
+        "redux": "^4.0.5",
+        "redux-devtools-extension": "^2.13.8",
+        "redux-thunk": "^2.3.0",
+        "sass": "^1.32.7"
+    }
+}
