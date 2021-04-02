@@ -30,7 +30,6 @@ const Index2 = () => {
             <VirtualDisinfectionServices />
             
 
-            <LatestNews />
             <Footer />
         </React.Fragment>
     );

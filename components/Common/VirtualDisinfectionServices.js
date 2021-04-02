@@ -8,8 +8,8 @@ const VirtualDisinfectionServices = () => {
 				<div className="row">
 					<div className="col-lg-6 ptb-100">
 						<div className="important-content">
-							<span>Services</span>
-							<h2>Virtual Disinfection Services</h2>
+							<span>emerymark</span>
+							<h2>Unidad de atención al cliente</h2>
 							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.</p>
 
 							<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Architecto cupiditate eius laboriosam doloremque, accusamus ex adipisci, accusantium incidunt illo ratione, tempore eum ipsum explicabo aliquam iusto sit! Nostrum, at commodi.</p>

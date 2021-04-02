@@ -8,40 +8,40 @@ const AboutUs = () => {
 				<div className="row align-items-center">
 					<div className="col-lg-6">
 						<div className="about-content-two">
-							<span>About Us</span>
-							<h2>We Offer a Wide Range of Disinfecting Solutions</h2>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.</p>
+							<span>Nosotors </span>
+							<h2>Manten tus equipos en estado optimo</h2>
+							<p>contactenos o revise la documentación de dud equipos desde la plataforma de manuales de servicio.</p>
 							
-							<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, facere necessitatibus. Dignissimos saepe molestias maiores officia veniam! Eveniet harum vel voluptas eius saepe unde molestiae doloribus! Cum facilis nesciunt eius!</p>
+							<p>Si no puede encontrar la información que busca utilce los formularios de contacto o llame a la linea de atención al cliente</p>
 
 							<ul>
 								<li>
 									<i className="flaticon-checked-1"></i>
-									Deep Cleaning Service
+									Linea de atención
+								</li>
+								<li>
+									Manuales
 								</li>
 								<li>
 									<i className="flaticon-checked-1"></i>
-									Disinfecting  Services
+									documentación
 								</li>
 								<li>
 									<i className="flaticon-checked-1"></i>
-									COVID-19 Disinfecting 
-								</li>
-								<li>
-									<i className="flaticon-checked-1"></i>
-									Virucidal Disinfectants
+									Traducciones
+
 								</li>
 							</ul>
 
-                            <Link href="/about-us">
-                                <a className="default-btn">Learn More</a>
+                            <Link href="/manual-de-servicio-emp">
+                                <a className="default-btn">Manual de servicio emp</a>
                             </Link>
 						</div>
 					</div>
 
 					<div className="col-lg-6">
 						<div className="about-img-two">
-							<img src="/img/about-img-two.jpg" alt="Image" />
+							<img src="/img/about-img-two.png" alt="Image" />
 							<p className="block-p">
 								Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas expedita, illum debitis ex sed culpa perferendis.
 							</p>

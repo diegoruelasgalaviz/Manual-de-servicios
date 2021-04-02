@@ -3,5 +3,5 @@
   "/_document": "pages/_document.js",
   "/_error": "pages/_error.js",
   "/emp-service-manual": "pages/emp-service-manual.js",
-  "/manual-de-servicio-emp": "pages/manual-de-servicio-emp.js"
+  "/": "pages/index.js"
 }

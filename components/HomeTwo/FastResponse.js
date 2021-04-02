@@ -6,8 +6,8 @@ const FastResponse = () => {
 			<div className="container">
 				<div className="response-wrap">
 					<h3>
-						Fast Response Time - Local & Professional-Open 24/7 Call Now at 
-						<a href="tel:+61-821-456">+61-821-456</a>
+						Soporte técnico a su disposición - Comunicarse 
+						<a href="tel:+61-821-456">+52 36500803</a>
 					</h3>
 					<div className="shape">
 						<img src="/img/shape/shape1.png" alt="Image" />

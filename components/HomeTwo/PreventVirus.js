@@ -8,14 +8,14 @@ const PreventVirus = () => {
 				<div className="row align-items-center">
 					<div className="col-lg-6">
 						<div className="prevent-content-two">
-							<span>Prevent</span>
-							<h2>Protect Yourself from Virus</h2>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.</p>
+							<span>Prevenga la propagación del COVID - 19</span>
+							<h2>Protejase del Virus</h2>
+							<p>Limpie sus equipos con regularidad y utilice medidas de seguridad al opera y manipular sus equipos</p>
 
-							<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Architecto cupiditate eius laboriosam doloremque, accusamus ex adipisci, accusantium incidunt illo ratione, tempore eum ipsum explicabo aliquam iusto sit! Nostrum, at commodi.</p>
+							<p>Nuestro personal cuenta con todas las medidas de seguridad y emerymark pone a su disposición material y contactos digitales para evitar su exposición al virus.</p>
 
                             <Link href="#">
-                                <a className="default-btn">Get Quote</a>
+                                <a className="default-btn">Contacto de soporte técnico</a>
                             </Link>
 						</div>
 					</div>
