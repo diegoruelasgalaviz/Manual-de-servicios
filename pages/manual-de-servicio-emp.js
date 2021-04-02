@@ -8,6 +8,7 @@ import FaqContactForm from '../components/FAQ/FaqContactForm';
 import Footer from '../components/_App/Footer';
 import PreventCheck from '../components/FAQ/PreventCheck';
 
+
 const Faq = () => {
     return (
         <React.Fragment>

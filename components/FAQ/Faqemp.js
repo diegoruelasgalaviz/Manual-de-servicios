@@ -30,9 +30,16 @@ const FaqContent = () => {
 										</AccordionItemButton>
 									</AccordionItemHeading>
 									<AccordionItemPanel>
-										<p>
-											Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-										</p>
+										<table className="table">
+                                            <tr>
+                                                <td>Alta Presión</td>
+                                                <td>Baja Presión</td>
+                                            </tr>
+                                            <tr>
+                                                <td>220 - 300 psi</td>
+                                                <td>9 - 45 psi</td>
+                                            </tr>
+                                        </table>
 									</AccordionItemPanel>
 								</AccordionItem>
 
@@ -43,9 +50,24 @@ const FaqContent = () => {
 										</AccordionItemButton>
 									</AccordionItemHeading>
 									<AccordionItemPanel>
-										<p>
-											Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-										</p>
+                                    <table className="table">
+                                            <tr>
+                                                <td>Modelo</td>
+                                                <td>Rango de amperaje</td>
+                                            </tr>
+                                            <tr>
+                                                <td>EMP-10 </td>
+                                                <td>2 - 5 A</td>
+                                            </tr>
+                                            <tr>
+                                                <td>EMP-20 </td>
+                                                <td>3 - 8 A</td>
+                                            </tr>
+                                            <tr>
+                                                <td>EMP-40 </td>
+                                                <td>3 - 11 A</td>
+                                            </tr>
+                                        </table>
 									</AccordionItemPanel>
 								</AccordionItem>
 
@@ -57,9 +79,41 @@ const FaqContent = () => {
 									</AccordionItemHeading>
 									<AccordionItemPanel>
 										<p>
-											Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+											Medir con un multimetro el voltaje entre los cables de los siguientes color.
 										</p>
-									</AccordionItemPanel>
+                                        <table className="table">
+                                            <thead className="thead-dark">
+                                            <tr >
+                                                <th scope="col">Color A</th>
+                                                <th scope="col">Color B</th>
+                                                <th scope="col">Voltaje</th>
+                                            </tr>
+                                            </thead>
+                                            
+                                            <tr scope="row">
+                                                <td>Negro</td>
+                                                <td>Blanco</td>
+                                                <td>220v</td>
+                                            </tr>
+                                            <tr scope="row">
+                                                 <td>Negro</td>
+                                                <td>rojo</td>
+                                                <td>220v</td>
+                                            </tr>
+                                            <tr scope="row">
+                                                <td>Blanco</td>
+                                                <td>rojo</td>
+                                                <td>220v</td>
+                                            </tr>
+                                            <tr scope="row">
+                                                <td>verde</td>
+                                                <td></td>
+                                                <td></td>
+                                            </tr>
+                                        </table>
+                                        <h6>Nota: El voltaje no debe bajar de 205 ni subir de 230 para las siguientes pruebas excepto el verde</h6>
+                                        <p>La pata de Aguijón es la Roja</p>
+                                    </AccordionItemPanel>
 								</AccordionItem>
 
 								<AccordionItem uuid="d">
@@ -71,8 +125,14 @@ const FaqContent = () => {
 									</AccordionItemHeading>
 									<AccordionItemPanel>
 										<p>
-											Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-										</p>
+                                        El ajuste de las presiones es en Alta cuando son condensadas en aire para todas las
+máquinas deben de ser 350 psi cuando la máquina es condensada por aire la protección
+ocurre en alta presión en 310 psi, las máquinas se protegen por baja presión a 2 libras
+ningún rango es movible, si el lugar es demasiado movible, Si el recinto donde se opera es
+demasiado caliente se debe buscar una manera de enfriarlas, ahí riesgo de
+daño en el compresor si se protege arriba de 350 psi, el daño en el compresor liberaría
+aceite en el sistema obstaculizando el funcionamiento apropiado
+                                        </p>
 									</AccordionItemPanel>
 								</AccordionItem>
 
@@ -85,8 +145,14 @@ const FaqContent = () => {
 									</AccordionItemHeading>
 									<AccordionItemPanel>
 										<p>
-											Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-										</p>
+                                        Esta válvula debe estar siempre programada en el número 3 que es justo en donde corta la
+circulación del agua, una vez que libera, esa presión debe ser entre 260- 280 psi, se puede
+regular al
+número 2 esto te va a permitir el acceso del agua a menor presión, es decir va a liberar a
+240-250 psi, lo recomendable es que siempre se maneje al número 3 justo como sale de
+fábrica
+                                    
+                                    	</p>
 									</AccordionItemPanel>
 								</AccordionItem>
                                 <AccordionItem uuid="f">
@@ -97,9 +163,23 @@ const FaqContent = () => {
 										</AccordionItemButton>
 									</AccordionItemHeading>
 									<AccordionItemPanel>
-										<p>
-											Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-										</p>
+										<ul>
+                                            <li>
+                                            De manera equivocada se Conectó la salida de la torre a la entrada del agua, es decir que
+se conectó a la inversa
+                                            </li>
+                                            <li>
+                                            Obstrucción de la válvula de entrada de la torre
+
+                                            </li>
+                                            <li>
+                                            El ventilador empuja el aire hacia adentro de la torre en vez de sacarlo
+                                            </li>
+                                            <li>
+                                            Burbujas de aire dentro de la bomba
+
+                                            </li>
+                                        </ul>
 									</AccordionItemPanel>
 								</AccordionItem>
                                 <AccordionItem uuid="g">

@@ -16,11 +16,11 @@ const Layout = ({ children }) => {
     return(
         <React.Fragment>
             <Head>
-                <title>Ston - React Disinfection & Sanitization Services Template</title>
+                <title>Manuales Emerymark</title>
                 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-                <meta name="description" content="Ston - React Disinfection & Sanitization Services Template" />
-                <meta name="og:title" property="og:title" content="Ston - React Disinfection & Sanitization Services Template"></meta>
-                <meta name="twitter:card" content="Ston - React Disinfection & Sanitization Services Template"></meta>
+                <meta name="description" content="Manuales de Emerymark" />
+                <meta name="og:title" property="og:title" content="Manuales de Emerymark"></meta>
+                <meta name="twitter:card" content="Manuales de Emerymark"></meta>
                 <link rel="canonical" href="https://ston-react.envytheme.com/"></link>
             </Head>
 

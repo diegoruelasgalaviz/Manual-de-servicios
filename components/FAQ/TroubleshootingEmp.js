@@ -31,7 +31,11 @@ const FaqContent = () => {
 									</AccordionItemHeading>
 									<AccordionItemPanel>
 										<p>
-											Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                                        Es posible que exista una obstrucción o una deficiencia en la
+circulación en el sistema de enfriamiento del Equipo paletero, Checar Filtro de Bomba por
+sí exista algún residuo atrapado en su interior, checar el estado mismo de la bomba y
+compresor, Tomar acciones según lo observado
+
 										</p>
 									</AccordionItemPanel>
 								</AccordionItem>
@@ -44,7 +48,13 @@ const FaqContent = () => {
 									</AccordionItemHeading>
 									<AccordionItemPanel>
 										<p>
-											Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+										Esto puede ocurrir por una circulación deficiente en el
+sistema de enfriamiento, por no dejar una distancia adecuada a los costados de la máquina
+que permita el correcto flujo del aire, por un temperatura muy elevada en el entorno de la
+máquina, por una fuga de Glicol o por el Uso de un Glicol de gradualidad incorrecta,
+recordemos que la gradualidad correcta del glicol es de 50% - 50% Glicol, se puede usar
+una gradualidad distinta de Glicol, pero está siempre deberá ser mayor al 50% nunca menor
+
 										</p>
 									</AccordionItemPanel>
 								</AccordionItem>
@@ -98,7 +108,12 @@ const FaqContent = () => {
 									</AccordionItemHeading>
 									<AccordionItemPanel>
 										<p>
-											Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                                        Si al usar su equipo usted nota que la máquina gotea o que el
+Glicol se acaba demasiado rápido lo más probable es que estemos lidiando con una fuga de
+Glicol, Existen varias causas por las cuales se puede originar una fuga de Glicol, por ejmplo,
+un empaque roto, una manguera floja o incluso un problema directamente en la bomba,
+para ello hay que checar con el sistema expuesto el origen de las fugas, una vez
+identificandolo podemos pasar a solucionar el problema
 										</p>
 									</AccordionItemPanel>
 								</AccordionItem>

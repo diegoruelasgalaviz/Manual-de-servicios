@@ -24,10 +24,10 @@
       "static/chunks/webpack.js",
       "static/chunks/pages/_error.js"
     ],
-    "/about-us": [
+    "/emp-service-manual": [
       "static/chunks/main.js",
       "static/chunks/webpack.js",
-      "static/chunks/pages/about-us.js"
+      "static/chunks/pages/emp-service-manual.js"
     ],
     "/manual-de-servicio-emp": [
       "static/chunks/main.js",
