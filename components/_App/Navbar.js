@@ -78,6 +78,23 @@ const Navbar = () => {
                                               
                                             </ul>
                                         </li>
+                                        <li className="nav-item">
+                                            <Link href="#" activeClassName="active">
+                                                <a onClick={e => e.preventDefault()} className="nav-link">
+                                                    Manuals of service <i className='bx bx-chevron-down'></i>
+                                                </a>
+                                            </Link>
+
+                                            <ul className="dropdown-menu">
+                                                <li className="nav-item">
+                                                    <Link href="/emp-service-manual" activeClassName="active">
+                                                        <a onClick={toggleNavbar} className="nav-link">manual of EMP Equipment</a>
+                                                    </Link>
+                                                </li>
+
+                                              
+                                            </ul>
+                                        </li>
 
                                        
                                     </ul>
