@@ -58,15 +58,15 @@ const Faqfremp= () => {
                                                 <td>Gamme d'ampérage</td>
                                             </tr>
                                             <tr>
-                                                <td>EMP-10 </td>
+                                                <td>EMP-200 o EMP-500</td>
                                                 <td>2 - 5 A</td>
                                             </tr>
                                             <tr>
-                                                <td>EMP-20 </td>
+                                                <td>EMP-1500</td>
                                                 <td>3 - 8 A</td>
                                             </tr>
                                             <tr>
-                                                <td>EMP-40 </td>
+                                                <td>EMP-3000 </td>
                                                 <td>3 - 11 A</td>
                                             </tr>
                                         </table>
@@ -252,6 +252,27 @@ coffret électrique de chaque machine.
 										<p>
 											Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
 										</p>
+									</AccordionItemPanel>
+								</AccordionItem>
+								<AccordionItem uuid="j">
+									<AccordionItemHeading>
+										<AccordionItemButton>
+                                       Limpieza del filtro.
+
+										</AccordionItemButton>
+									</AccordionItemHeading>
+									<AccordionItemPanel>
+										<ul>
+											<li>La máquina se debe encontrar fuera de funcionamiento</li>
+											<li>Ubicar la línea de succión de la bomba</li>
+											<li>Cerrar el maneral naranja de succión</li>
+											<li>Posterior ubicar línea de descarga de la bomba, cerrar maneral naranja de desacarga de la bomba</li>
+											<li>Ubicar filtro "Y" que es un tapón de bronce hexagonal </li>
+											<li>Aflojar el tapón y sacar el cedazo interno, limpiar de residuos, volverlo a poner en su posición, volver a colocar el tapón de bronce </li>
+											<li>Abrir los dos manerales naranjas</li>
+										</ul>
+										<br/>
+										<h6>Nota: No es necesario sacar el glicol de la tina, pues para eso se cierran los dos manerales, repetir esto cada vez que se note un bajo recirculamiento del glicol</h6>
 									</AccordionItemPanel>
 								</AccordionItem>
 							</Accordion>

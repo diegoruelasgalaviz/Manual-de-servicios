@@ -208,8 +208,7 @@ capacity.
                                 <AccordionItem uuid="h">
 									<AccordionItemHeading>
 										<AccordionItemButton>
-                                        Wiring diagram for each model; to also include in the manual and in the
-electrical box of each machine.
+                                        Wiring diagram  of the electrical box for each machine.
 
 
 										</AccordionItemButton>

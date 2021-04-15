@@ -37,7 +37,7 @@ const FaqContent = () => {
                                             </tr>
                                             <tr>
                                                 <td>220 - 300 psi</td>
-                                                <td>45 psi al empezar el ciclo y 9 psi <br/>al estar a baja temperatura (-23 grados celcius aproximadamente) </td>
+                                                <td>45 psi al empezar el ciclo y<br/> 9 psi al estar a baja temperatura <br/>(-23 grados celcius aproximadamente) </td>
                                             </tr>
                                         </table>
 									</AccordionItemPanel>
@@ -79,7 +79,7 @@ const FaqContent = () => {
 									</AccordionItemHeading>
 									<AccordionItemPanel>
 										<p>
-											Medir con un multimetro el voltaje entre los cables de los siguientes color.
+											Medir con un voltimetro el voltaje entre los cables de los siguientes color.
 										</p>
                                         <table className="table">
                                             <thead className="thead-dark">
@@ -111,7 +111,7 @@ const FaqContent = () => {
                                                 <td></td>
                                             </tr>
                                         </table>
-                                        <h6>Nota: El voltaje no debe caer por debajo de 205 o elevarse por encima de 230 para las siguientes pruebas excepto verde</h6>
+                                        <h6>Nota: El voltaje no debe caer por debajo de 198 o elevarse por encima de 242 para las siguientes pruebas excepto verde</h6>
                                         <p>La pata de Aguijón es la Roja</p>
                                     </AccordionItemPanel>
 								</AccordionItem>
@@ -145,6 +145,8 @@ aceite en el sistema obstaculizando el funcionamiento apropiado
 									</AccordionItemHeading>
 									<AccordionItemPanel>
 										<p>
+
+
                                         Esta válvula debe estar siempre programada en el número 3 que es justo en donde corta la
 circulación del agua, una vez que libera, esa presión debe ser entre 260- 280 psi, se puede
 regular al
@@ -163,6 +165,7 @@ fábrica
 										</AccordionItemButton>
 									</AccordionItemHeading>
 									<AccordionItemPanel>
+										<p>Información correspondiente a los equipos enfriados por agua</p>
 										<ul>
                                             <li>
                                             De manera equivocada se Conectó la salida de la torre a la entrada del agua, es decir que
