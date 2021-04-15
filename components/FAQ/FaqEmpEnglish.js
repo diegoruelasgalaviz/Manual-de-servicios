@@ -215,9 +215,24 @@ electrical box of each machine.
 										</AccordionItemButton>
 									</AccordionItemHeading>
 									<AccordionItemPanel>
-										<p>
-											Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-										</p>
+									<h6>
+											EMP 200 - EMP - 500
+	
+										</h6>
+
+										<img src="/img/caja-electrica/cajaelectrica200-500.png"/>
+										<h6>
+											EMP 1500
+	
+										</h6>
+
+										<img src="/img/caja-electrica/cajaelectrica1500.png"/>
+										<h6>
+											EMP 3000
+	
+										</h6>
+
+										<img src="/img/caja-electrica/cajaelectrica3000.png"/>
 									</AccordionItemPanel>
 								</AccordionItem>
                                 <AccordionItem uuid="i">

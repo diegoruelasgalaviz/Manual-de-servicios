@@ -2,6 +2,7 @@
   "/_app": "pages/_app.js",
   "/_document": "pages/_document.js",
   "/_error": "pages/_error.js",
-  "/emp-service-manual": "pages/emp-service-manual.js",
-  "/manuel-d-entretien-emp": "pages/manuel-d-entretien-emp.js"
+  "/manuel-d-entretien-emp": "pages/manuel-d-entretien-emp.js",
+  "/manual-de-servicio-emp": "pages/manual-de-servicio-emp.js",
+  "/emp-service-manual": "pages/emp-service-manual.js"
 }

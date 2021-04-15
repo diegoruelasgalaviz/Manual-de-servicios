@@ -29,6 +29,11 @@
       "static/chunks/webpack.js",
       "static/chunks/pages/emp-service-manual.js"
     ],
+    "/manual-de-servicio-emp": [
+      "static/chunks/main.js",
+      "static/chunks/webpack.js",
+      "static/chunks/pages/manual-de-servicio-emp.js"
+    ],
     "/manuel-d-entretien-emp": [
       "static/chunks/main.js",
       "static/chunks/webpack.js",
