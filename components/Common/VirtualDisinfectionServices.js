@@ -10,9 +10,9 @@ const VirtualDisinfectionServices = () => {
 						<div className="important-content">
 							<span>emerymark</span>
 							<h2>Unidad de atención al cliente</h2>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.</p>
+							<p>Contamos con una linea de atención al cliente y una línea de soporte que se encargará de resolver todas sus dudas y problemas referentes al estado de sus equipos.</p>
 
-							<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Architecto cupiditate eius laboriosam doloremque, accusamus ex adipisci, accusantium incidunt illo ratione, tempore eum ipsum explicabo aliquam iusto sit! Nostrum, at commodi.</p>
+							<p>Recuerde que el uso adecuado y el mantenieto preventido es parte crucial y fundamental para alargar la vida útil de nuestros equipos y mantener su calidad de producción</p>
 
                             <Link href="#">
                                 <a className="default-btn">Get Quote</a>
@@ -27,20 +27,20 @@ const VirtualDisinfectionServices = () => {
 									<div className="col-lg-6 col-sm-6">
 										<div className="single-counter">
 											<h2>
-												25
+												30
 												<span className="target">+</span>
 											</h2>
-											<p>Years</p>
+											<p>Años</p>
 										</div>
 									</div>
 				
 									<div className="col-lg-6 col-sm-6">
 										<div className="single-counter">
 											<h2>
-												3584 
+												13584 
 												<span className="target">+</span>
 											</h2>
-											<p>Happy Customers</p>
+											<p>Maquinas vendidas</p>
 										</div>
 									</div>
 				
@@ -50,17 +50,17 @@ const VirtualDisinfectionServices = () => {
                                                 258
 												<span className="traget">+</span>
 											</h2>
-											<p>Successful Projects</p>
+											<p>Modelos diseñados</p>
 										</div>
 									</div>
 				
 									<div className="col-lg-6 col-sm-6">
 										<div className="single-counter mb-0">
 											<h2>
-                                                500
+                                                750
 												<span className="traget">+</span>
 											</h2>
-											<p>Expert Stuff</p>
+											<p>Equipos reparados</p>
 										</div>
 									</div>
 								</div>

@@ -37,7 +37,7 @@ const FaqContent = () => {
                                             </tr>
                                             <tr>
                                                 <td>220 - 300 psi</td>
-                                                <td>9 - 45 psi</td>
+                                                <td>45 psi al empezar el ciclo y 9 psi <br/>al estar a baja temperatura (-23 grados celcius aproximadamente) </td>
                                             </tr>
                                         </table>
 									</AccordionItemPanel>
@@ -56,15 +56,15 @@ const FaqContent = () => {
                                                 <td>Rango de amperaje</td>
                                             </tr>
                                             <tr>
-                                                <td>EMP-10 </td>
+                                                <td>EMP-200 </td>
                                                 <td>2 - 5 A</td>
                                             </tr>
                                             <tr>
-                                                <td>EMP-20 </td>
+                                                <td>EMP-500 </td>
                                                 <td>3 - 8 A</td>
                                             </tr>
                                             <tr>
-                                                <td>EMP-40 </td>
+                                                <td>EMP-1500 </td>
                                                 <td>3 - 11 A</td>
                                             </tr>
                                         </table>
@@ -111,7 +111,7 @@ const FaqContent = () => {
                                                 <td></td>
                                             </tr>
                                         </table>
-                                        <h6>Nota: El voltaje no debe bajar de 205 ni subir de 230 para las siguientes pruebas excepto el verde</h6>
+                                        <h6>Nota: El voltaje no debe caer por debajo de 205 o elevarse por encima de 230 para las siguientes pruebas excepto verde</h6>
                                         <p>La pata de Aguijón es la Roja</p>
                                     </AccordionItemPanel>
 								</AccordionItem>
@@ -126,9 +126,9 @@ const FaqContent = () => {
 									<AccordionItemPanel>
 										<p>
                                         El ajuste de las presiones es en Alta cuando son condensadas en aire para todas las
-máquinas deben de ser 350 psi cuando la máquina es condensada por aire la protección
+máquinas deben de ser 350 psi, cuando la máquina es condensada por agua la protección
 ocurre en alta presión en 310 psi, las máquinas se protegen por baja presión a 2 libras
-ningún rango es movible, si el lugar es demasiado movible, Si el recinto donde se opera es
+ningún rango es movible, si el lugar carece de ventilación, Si el recinto donde se opera es
 demasiado caliente se debe buscar una manera de enfriarlas, ahí riesgo de
 daño en el compresor si se protege arriba de 350 psi, el daño en el compresor liberaría
 aceite en el sistema obstaculizando el funcionamiento apropiado
@@ -139,7 +139,7 @@ aceite en el sistema obstaculizando el funcionamiento apropiado
 								<AccordionItem uuid="e">
 									<AccordionItemHeading>
 										<AccordionItemButton>
-                                        - El ajuste de la válvula de agua en la que están programadas todas las máquinas. ¿La manija gris de la válvula está siempre programada en el mismo ajuste?
+                                        El ajuste de la válvula de agua en la que están programadas todas las máquinas. ¿La manija gris de la válvula está siempre programada en el mismo ajuste?
 
 										</AccordionItemButton>
 									</AccordionItemHeading>
@@ -158,7 +158,7 @@ fábrica
                                 <AccordionItem uuid="f">
 									<AccordionItemHeading>
 										<AccordionItemButton>
-                                        -  Posibles problemas con los ajustes de las válvulas de agua y las conexiones para las torres de enfriamiento y algunos ajustes que puede hacer un técnico
+                                        Posibles problemas con los ajustes de las válvulas de agua y las conexiones para las torres de enfriamiento y algunos ajustes que puede hacer un técnico
 
 										</AccordionItemButton>
 									</AccordionItemHeading>
@@ -169,7 +169,7 @@ fábrica
 se conectó a la inversa
                                             </li>
                                             <li>
-                                            Obstrucción de la válvula de entrada de la torre
+                                            Obstrucción de la válvula de entrada de la torre por basura u objetos ajenos al sistema de circulación del agua
 
                                             </li>
                                             <li>
@@ -222,6 +222,28 @@ caja eléctrica de cada máquina.
 										</p>
 									</AccordionItemPanel>
 								</AccordionItem>
+								<AccordionItem uuid="j">
+									<AccordionItemHeading>
+										<AccordionItemButton>
+                                       Limpieza del filtro.
+
+										</AccordionItemButton>
+									</AccordionItemHeading>
+									<AccordionItemPanel>
+										<ul>
+											<li>La máquina se debe encontrar fuera de funcionamiento</li>
+											<li>Ubicar la línea de succión de la bomba</li>
+											<li>Cerrar el maneral naranja de succión</li>
+											<li>Posterior ubicar línea de descarga de la bomba, cerrar maneral naranja de desacarga de la bomba</li>
+											<li>Ubicar filtro "Y" que es un tapón de bronce hexagonal </li>
+											<li>Aflojar el tapón y sacar el cedazo interno, limpiar de residuos, volverlo a poner en su posición, volver a colocar el tapón de bronce </li>
+											<li>Abrir los dos manerales naranjas</li>
+										</ul>
+										<br/>
+										<h6>Nota: No es necesario sacar el glicol de la tina, pues para eso se cierran los dos manerales, repetir esto cada vez que se note un bajo recirculamiento del glicol</h6>
+									</AccordionItemPanel>
+								</AccordionItem>
+							
 							</Accordion>
 						</div>
 					</div>

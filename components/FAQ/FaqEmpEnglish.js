@@ -37,7 +37,7 @@ const FaqEmpEnglish = () => {
                                             </tr>
                                             <tr>
                                                 <td>220 - 300 psi</td>
-                                                <td>9 - 45 psi</td>
+                                                <td>45 psi at the beginning of the cycle and 9 psi <br/> when at low temperature (-23 degrees celcius approximately)</td>
                                             </tr>
                                         </table>
 									</AccordionItemPanel>
@@ -54,19 +54,19 @@ of the pump motor (EMP) for each model.
 									<AccordionItemPanel>
                                     <table className="table">
                                             <tr>
-                                                <td>Modelo</td>
-                                                <td>Rango de amperaje</td>
+                                                <td>Model</td>
+                                                <td>amperage range</td>
                                             </tr>
                                             <tr>
-                                                <td>EMP-10 </td>
+                                                <td>EMP-200 </td>
                                                 <td>2 - 5 A</td>
                                             </tr>
                                             <tr>
-                                                <td>EMP-20 </td>
+                                                <td>EMP-500 </td>
                                                 <td>3 - 8 A</td>
                                             </tr>
                                             <tr>
-                                                <td>EMP-40 </td>
+                                                <td>EMP-1500 </td>
                                                 <td>3 - 11 A</td>
                                             </tr>
                                         </table>
@@ -113,7 +113,7 @@ of the pump motor (EMP) for each model.
                                                 <td></td>
                                             </tr>
                                         </table>
-                                        <h6>Web Service Manual in three languages ​​for the Emerymark EMP line paleteros equipment, if you have any situation or question that is not described or answered in the manual, you can leave your data in the form below and a technician will contact you at brevity</h6>
+                                        <h6>Note: The voltage should not drop below 205 or rise above 230 for the following tests except green</h6>
                                         <p>Stinger's leg is Red</p>
                                     </AccordionItemPanel>
 								</AccordionItem>
@@ -128,13 +128,13 @@ of the pump motor (EMP) for each model.
 									</AccordionItemHeading>
 									<AccordionItemPanel>
 										<p>
-                                        The pressure setting is in High when they are condensed in air for all machines must be 350
-psi when the machine is condensed by air the protection occurs in high pressure at 310 psi,
-the machines are protected by low pressure at 2 pounds
-No range is movable, if the place is too movable, If the room where it operates is too hot, a
-way to cool them must be found, there risk of
-compressor damage if protected above 350 psi, compressor damage would release oil into
-the system hampering proper operation
+                                        The pressure setting is High when condensed in air for all
+machines must be 350 psi, when the machine is condensed by water the protection
+occurs at high pressure at 310 psi, machines are protected by low pressure at 2 pounds
+No range is movable, if the place lacks ventilation, If the room where it operates is
+too hot, a way to cool them must be found, there is a risk of
+compressor damage if protected above 350 psi, compressor damage would release
+oil in the system hampering proper operation
 
                                         </p>
 									</AccordionItemPanel>
@@ -164,7 +164,7 @@ factory
                                 <AccordionItem uuid="f">
 									<AccordionItemHeading>
 										<AccordionItemButton>
-                                        -  Possible problems with the settings of the water valves and
+                                        Possible problems with the settings of the water valves and
 the connections for the cooling towers and some adjustments that can be made by a
 technician
 
@@ -177,7 +177,7 @@ technician
 in reverse
                                             </li>
                                             <li>
-                                            ower inlet valve obstruction
+											Obstruction of the tower inlet valve by garbage or objects foreign to the water circulation system
 
 
                                             </li>
@@ -231,6 +231,27 @@ electrical box of each machine.
 										<p>
 											Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
 										</p>
+									</AccordionItemPanel>
+								</AccordionItem>
+								<AccordionItem uuid="j">
+									<AccordionItemHeading>
+										<AccordionItemButton>
+										Filter cleaning.
+
+										</AccordionItemButton>
+									</AccordionItemHeading>
+									<AccordionItemPanel>
+										<ul>
+										<li> The machine must be out of operation </li>
+										<li> Locate the pump suction line </li>
+										<li> Close the orange suction handle </li>
+										<li> Then locate the pump discharge line, close the orange pump discharge handle </li>
+										<li> Locate filter "Y" which is a hexagonal bronze plug </li>
+										<li> Loosen the cap and remove the internal sieve, clean any residue, put it back in position, replace the bronze cap </li>
+										<li> Open the two orange handles </li>
+										</ul>
+										<br/>
+										<h6> Note: It is not necessary to remove the glycol from the tub, because for that the two handles are closed, repeat this every time a low glycol recirculation is noticed </h6>
 									</AccordionItemPanel>
 								</AccordionItem>
 							</Accordion>

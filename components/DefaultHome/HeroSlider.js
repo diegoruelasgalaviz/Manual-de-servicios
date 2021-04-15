@@ -50,8 +50,8 @@ const HeroSlider = () => {
                                     <div className="row align-items-center">
                                         <div className="col-lg-9">
                                             <div className="slider-text one">
-                                                <h1>Cleaning And Disinfecting Your Home</h1>
-                                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil architecto laborum eaque! Deserunt maxime, minus quas molestiae reiciendis esse natus nisi iure.</p>
+                                                <h1>Soporte técnico a su disposición</h1>
+                                                <p>Contamos con una plataforma de servicio técnico para que cuete con documentación clara y accesible de su equipo.</p>
             
                                                 <div className="slider-btn">
                                                     <Link href="/contact">
@@ -94,8 +94,8 @@ const HeroSlider = () => {
                                     <div className="row align-items-center">
                                         <div className="col-lg-9">
                                             <div className="slider-text two">
-                                                <h1>Cleaning And Disinfecting Your Area</h1>
-                                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil architecto laborum eaque! Deserunt maxime, minus quas molestiae reiciendis esse natus nisi iure.</p>
+                                                <h1>Passion for Ice cream</h1>
+                                                <p>Amantes por el Helado y su ingeniería desde hace más de 30 años</p>
                                                 
                                                 <div className="slider-btn">
                                                     <Link href="/contact">

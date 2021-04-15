@@ -56,14 +56,10 @@ conlleva a fugas de Glicol
 succione, arranque y se quede estable, cuando suceda esto se observará una luz verde en
 el panel de control de la máquina, encender el compresor
 								</li>
+                                
                                 <li>
 									<i className="flaticon-checked"></i>
-									Lubricación de Empaques al momento de Instalación
-
-								</li>
-                                <li>
-									<i className="flaticon-checked"></i>
-									purga del sistema de refrigeración cada vez que sea necesario (Glicol contaminado,
+									purga del sistema de recirculación de Glicol cada vez que sea necesario (Glicol contaminado,
 Bomba con Aire)
 								</li>
 							</ul>

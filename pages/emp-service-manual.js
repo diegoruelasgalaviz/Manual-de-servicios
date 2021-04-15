@@ -5,6 +5,7 @@ import Footer from '../components/_App/Footer';
 import TroubleShootEngs from '../components/FAQ/TroubleShootEng';
 import FaqEmpEnglish from '../components/FAQ/FaqEmpEnglish';
 import PreventEng from '../components/FAQ/PreventEng';
+import FaqEngContact from '../components/FAQ/FaqEngContact';
 
 const Faq = () => {
     return (
@@ -15,7 +16,7 @@ const Faq = () => {
 
             <TroubleShootEngs />
             <PreventEng/>
-            <FaqContactForm />
+            <FaqEngContact/>
             
             <Footer />
         </React.Fragment>

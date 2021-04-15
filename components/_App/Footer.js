@@ -17,7 +17,7 @@ const Footer = () => {
                                     </Link>
                                 </div>
 
-                                <p>Lorem ipsum dolor, sit amet earum consectetur adipisicing elit. Cupiditate rerum quidem fugiat sapiente! Iusto quae perspiciatis, repudiandae ipsam minus et ex, aliquid dolor molestias.</p>
+                                <p>Todas nuestras Máquinas pasan por un control de calidad exhaustivo; desde el EM-5 hasta la EMP-6000 han sido inspeccionadas al minucioso detalle, afinando las técnicas del desarrollo del helado y paletas, contribuyendo a la investigación al referente de los mismos. Al adquirir un equipo Emerymark apoyas a la mejora continua del Helado o como nos gusta llamarlo 'Kaizen del Helado'..</p>
 
                                 <div className="social-area">
                                     <ul>
@@ -53,141 +53,62 @@ const Footer = () => {
                         
                         <div className="col-lg-3 col-md-6">
                             <div className="single-widget">
-                                <h3>Our Services</h3>
+                                <h3>Algunos Manuales</h3>
 
                                 <ul>
                                     <li>
-                                        <Link href="/service-details">
+                                        <Link href="/emp-service-manual">
                                             <a>
                                                 <i className="bx bx-chevrons-right"></i>
-                                                Main Service
+                                                Service manual
                                             </a>
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link href="/service-details">
+                                        <Link href="/manual-de-servicio">
                                             <a>
                                                 <i className="bx bx-chevrons-right"></i>
-                                                Window Cleaning
+                                                Manual de Servicio
                                             </a>
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link href="/service-details">
+                                        <Link href="/manuel-d-entretien">
                                             <a>
                                                 <i className="bx bx-chevrons-right"></i>
-                                                Domestic Cleaning
+                                                Manuel D'entretien
                                             </a>
                                         </Link>
                                     </li>
-                                    <li>
-                                        <Link href="/service-details">
-                                            <a>
-                                                <i className="bx bx-chevrons-right"></i>
-                                                Disinfection
-                                            </a>
-                                        </Link>
-                                    </li>
-                                    <li>
-                                        <Link href="/service-details">
-                                            <a>
-                                                <i className="bx bx-chevrons-right"></i>
-                                                Office Cleaning
-                                            </a>
-                                        </Link>
-                                    </li>
-                                    <li>
-                                        <Link href="/service-details">
-                                            <a>
-                                                <i className="bx bx-chevrons-right"></i>
-                                                House Cleaning
-                                            </a>
-                                        </Link>
-                                    </li>
+                                    
                                 </ul>
                             </div>
                         </div>
 
-                        <div className="col-lg-3 col-md-6">
-                            <div className="single-widget">
-                                <h3>Quick Links</h3>
-
-                                <ul>
-                                    <li>
-                                        <Link href="/about-us">
-                                            <a>
-                                                <i className="bx bx-chevrons-right"></i>
-                                                About
-                                            </a>
-                                        </Link>
-                                    </li>
-                                    <li>
-                                        <Link href="/services-style-one">
-                                            <a>
-                                                <i className="bx bx-chevrons-right"></i>
-                                                Services
-                                            </a>
-                                        </Link>
-                                    </li>
-                                    <li>
-                                        <Link href="/pricing">
-                                            <a>
-                                                <i className="bx bx-chevrons-right"></i>
-                                                Prices
-                                            </a>
-                                        </Link>
-                                    </li>
-                                    <li>
-                                        <Link href="/testimonials">
-                                            <a>
-                                                <i className="bx bx-chevrons-right"></i>
-                                                Testimonials 
-                                            </a>
-                                        </Link>
-                                    </li>
-                                    <li>
-                                        <Link href="/blog-grid">
-                                            <a>
-                                                <i className="bx bx-chevrons-right"></i>
-                                                Blog
-                                            </a>
-                                        </Link>
-                                    </li>
-                                    <li>
-                                        <Link href="/projects">
-                                            <a>
-                                                <i className="bx bx-chevrons-right"></i>
-                                                Projects
-                                            </a>
-                                        </Link>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-
+                        
                         <div className="col-lg-3 col-md-6">
                             <div className="single-widget contact">
-                                <h3>Get In Touch</h3>
+                                <h3>Contactese con nosotros</h3>
 
                                 <ul>
                                     <li>
                                         <i className="bx bx-phone-call"></i>
-                                        <span>Hotline:</span> 
-                                        Phone: <a href="tel:+61-821-456">+61-821-456</a>
+                                        <span>Línea de oficina:</span> 
+                                        Phone: <a href="tel:+52 33 36500803">+52 33 36500803</a>
                                     </li>
                                     
                                     <li>
                                         <i className="bx bx-envelope"></i>
                                         <span>Email:</span> 
-                                        <a href="mailto:hello@surety.com">
-                                            hello@ston.com
+                                        <a href="mailto:servicio@emerymark.com">
+                                            servicio@emerymark.com
                                         </a>
                                     </li>
                                     
                                     <li>
                                         <i className="bx bx-location-plus"></i>
-                                        <span>Address:</span> 
-                                        123, Western Road, Melbourne Australia
+                                        <span>dirección:</span> 
+                                       451, Calle Rio Nilo, Guadalajara, Jalisco, México
                                     </li>
                                 </ul>
                             </div>

@@ -31,11 +31,10 @@ const TroubleShootEngs = () => {
 									</AccordionItemHeading>
 									<AccordionItemPanel>
 										<p>
-                                        : It is possible that there is an obstruction or a
-deficiency in the circulation in the cooling system of the Palette
-Equipment, Check the Pump Filter if there is any residue
-trapped inside, check the condition of the pump and
-compressor, Take actions as observed
+                                       There may be an obstruction or deficiency in the
+circulation in the cooling system of the Pallet Equipment, Check the Pump Filter for
+if there is any residue trapped inside, check the condition of the pump itself and
+compressor, Take actions as observed, check percentage of water in Glycol, recommendation 50% glycol - 50% water
 
 										</p>
 									</AccordionItemPanel>
@@ -49,14 +48,12 @@ compressor, Take actions as observed
 									</AccordionItemHeading>
 									<AccordionItemPanel>
 										<p>
-										This can occur due to poor circulation in
-the cooling system, not leaving an adequate distance to the
-sides of the machine that allows the correct flow of air, due to a
-very high temperature in the environment of the machine, due
-to a Glycol leak or by the Use of a Glycol with an incorrect
-gradation, remember that the correct gradation of the glycol is
-50% - 50% Glycol, a different gradation of Glycol can be used,
-but it should always be greater than 50% never less
+										This can occur due to poor circulation in the
+cooling system, by not leaving an adequate distance to the sides of the machine
+that allows the correct flow of air, due to a very high temperature in the environment of the
+machine, due to a coolant leak or due to the use of a glycol of incorrect graduation,
+remember that the correct gradualness of glycol is 50% - 50% Glycol, it can be used
+a gradualness different from Glycol, but it must always be greater than 50% never less
 
 
 										</p>
@@ -72,7 +69,7 @@ but it should always be greater than 50% never less
 									</AccordionItemHeading>
 									<AccordionItemPanel>
 										<p>
-											Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+										Installation of very thin wiring for the equipment or very low voltage supply
 										</p>
 									</AccordionItemPanel>
 								</AccordionItem>
@@ -86,7 +83,7 @@ but it should always be greater than 50% never less
 									</AccordionItemHeading>
 									<AccordionItemPanel>
 										<p>
-											Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+										Due to a low level of Glycol, remembering that the level of Glycol must exceed the one indicated passing the absorption slots so that the pump does not suck air, dirty or clogged filters, presence of garbage or residues in the circulation of the cooling system
 										</p>
 									</AccordionItemPanel>
 								</AccordionItem>
@@ -100,9 +97,15 @@ but it should always be greater than 50% never less
 										</AccordionItemButton>
 									</AccordionItemHeading>
 									<AccordionItemPanel>
-										<p>
-											Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-										</p>
+									<ul>
+<li>
+Equipment polarity is reversed (this in three-phase equipment, single-phase equipment should not have this problem)
+</li>
+<li>
+Thermal pump protector activated
+</li>
+
+</ul>
 									</AccordionItemPanel>
 								</AccordionItem>
                                 <AccordionItem uuid="f">
@@ -113,16 +116,17 @@ but it should always be greater than 50% never less
 										</AccordionItemButton>
 									</AccordionItemHeading>
 									<AccordionItemPanel>
-										<p>
-                                        If when using your equipment you notice
-that the machine leaks or that the Glycol runs out too quickly, it
-is most likely that we are dealing with a Glycol leak, There are
-several causes by which a leak of Glycol, for example, a broken
-gasket, a loose hose or even a problem directly in the pump, for
-this we must check the source of the leaks with the exposed
-system, once we have identified it we can proceed to solve the
-problem
-										</p>
+									<p>
+                                        If while using your equipment you notice that the machine is leaking or that the
+Glycol is running out too fast we are most likely dealing with a leak of
+Glycol, There are several causes for which a Glycol leak can occur, for example,
+a broken gasket, a loose pipe or even a problem directly in the pump,
+For this, the source of the leaks must be checked with the exposed system, once
+By identifying it, we can proceed to solve the problem.
+<br/> <br/>
+Another reason would be the use of the pump without Glycol, this can cause the mechanical seal of the same to be damaged due to lack of lubrication
+
+</p>
 									</AccordionItemPanel>
 								</AccordionItem>
                                 <AccordionItem uuid="g">
@@ -132,9 +136,9 @@ problem
 										</AccordionItemButton>
 									</AccordionItemHeading>
 									<AccordionItemPanel>
-										<p>
-											Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-										</p>
+									<p>
+Due to residues present inside the cooling system, constant and conscientious care of the equipment is recommended to avoid the fall of residues inside it.
+</p>
 									</AccordionItemPanel>
 								</AccordionItem>
                                 
