@@ -141,7 +141,7 @@ const HeroSlider = () => {
             <ModalVideo 
                 channel='youtube' 
                 isOpen={!isOpen} 
-                videoId='uLJ0VY2SCH0&t=2s' 
+                videoId='uLJ0VY2SCH0' 
                 onClose={() => setIsOpen(!isOpen)} 
             />
         </React.Fragment>
