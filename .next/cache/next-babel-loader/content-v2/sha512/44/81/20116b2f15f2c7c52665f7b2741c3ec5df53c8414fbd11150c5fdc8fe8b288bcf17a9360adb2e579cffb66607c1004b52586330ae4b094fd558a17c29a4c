@@ -1,0 +1,1 @@
+{"ast":null,"code":"var __jsx = React.createElement;\nimport React from 'react';\nimport Navbar from '../components/_App/Navbar';\n\nconst Faq = () => {\n  return __jsx(React.Fragment, null, __jsx(Navbar, null), __jsx(\"h4\", null, \"EM\"), __jsx(Footer, null));\n};\n\nexport default Faq;","map":null,"metadata":{},"sourceType":"module"}
