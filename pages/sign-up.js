@@ -28,24 +28,7 @@ const SignUp = () => {
                             <div className="contact-form-action">
                                 <form>
                                     <div className="row">
-                                        <div className="col-lg-4 col-md-4 col-sm-12">
-                                            <button className="default-btn" type="submit">
-                                                Google
-                                            </button>
-                                        </div>
-
-                                        <div className="col-lg-4 col-md-4 col-sm-12">
-                                            <button className="default-btn" type="submit">
-                                                Facebook
-                                            </button>
-                                        </div>
-
-                                        <div className="col-lg-4 col-md-4 col-sm-12">
-                                            <button className="default-btn" type="submit">
-                                                Twitter
-                                            </button>
-                                        </div>
- 
+                                        
                                         <div className="col-md-6 col-sm-12">
                                             <div className="form-group">
                                                 <input className="form-control" type="text" name="name" placeholder="First Name" />
@@ -86,14 +69,14 @@ const SignUp = () => {
                                             <div className="agree-label">
                                                 <input type="checkbox" id="chb1" />
                                                 <label htmlFor="chb1">
-                                                    I agree with Ston <Link href="/privacy-policy"><a>Privacy Policy</a></Link>
+                                                    I agree with Emerymark <Link href="/privacy-policy"><a>Privacy Policy</a></Link>
                                                 </label>
                                             </div>
 
                                             <div className="agree-label">
                                                 <input type="checkbox" id="chb2" />
                                                 <label htmlFor="chb2">
-                                                    I agree with Ston <Link href="/terms-conditions"><a>Terms & Conditions</a></Link>
+                                                    I agree with Emerymark <Link href="/terms-conditions"><a>Terms & Conditions</a></Link>
                                                 </label>
                                             </div>
                                         </div>
