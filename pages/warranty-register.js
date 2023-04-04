@@ -8,7 +8,7 @@ const Contact = () => {
     return (
         <React.Fragment>
             <Navbar />
-            <PageBanner 
+            <PageBanner
                 pageTitle="Contact" 
                 homePageUrl="/" 
                 homePageText="Home" 

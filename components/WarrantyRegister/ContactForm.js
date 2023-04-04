@@ -6,7 +6,7 @@ const ContactForm = () => {
         <div className="contact-area ptb-100">
 			<div className="container">
 				<div className="row">
-					<div className="col-lg-8">
+					<div className="col-lg-12">
 						<div className="contact-wrap">
 							<div className="contact-form">
 								<div className="section-title">
@@ -61,37 +61,7 @@ const ContactForm = () => {
 						</div>
 					</div>
 
-					<div className="col-lg-4">
-						<div className="quick-contact">
-							<h3>Quick Contact </h3>
-
-							<ul>
-								<li>
-									<i className="bx bx-location-plus"></i>
-									Location:
-									<span>123, Western Road, Melbourne Australia</span>
-								</li>
-
-								<li>
-									<i className="bx bx-phone-call"></i>
-									Call Us:
-									<a href="tel:+61-821-456">+61-821-456</a>
-									<a href="tel:+61-987-786">+61-987-786</a>
-								</li>
-
-								<li>
-									<i className="bx bx-envelope"></i>
-									Email Us:
-									<a href="mailto:hello@ston.com">
-										hello@ston.com
-									</a>
-                                    <a href="mailto:info@ston.com">
-										info@ston.com
-									</a>
-								</li>
-							</ul>
-						</div>
-					</div>
+					
 				</div>
 			</div>
 		</div>
