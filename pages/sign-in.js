@@ -28,23 +28,7 @@ const SignIn = () => {
                             <div className="contact-form-action">
                                 <form method="post">
                                     <div className="row">
-                                        <div className="col-lg-4 col-md-4 col-sm-12">
-                                            <button className="default-btn" type="submit">
-                                                Google
-                                            </button>
-                                        </div>
-
-                                        <div className="col-lg-4 col-md-4 col-sm-12">
-                                            <button className="default-btn" type="submit">
-                                                Facebook
-                                            </button>
-                                        </div>
-
-                                        <div className="col-lg-4 col-md-4 col-sm-12">
-                                            <button className="default-btn" type="submit">
-                                                Twitter
-                                            </button>
-                                        </div>
+                                        
 
                                         <div className="col-12">
                                             <div className="form-group">
@@ -93,7 +77,7 @@ const SignIn = () => {
                     </div>
                 </div>
             </div>
-  
+
             <Footer />
         </React.Fragment>
     );
