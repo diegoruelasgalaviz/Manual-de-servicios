@@ -9,10 +9,10 @@ const Contact = () => {
         <React.Fragment>
             <Navbar />
             <PageBanner
-                pageTitle="Contact" 
+                pageTitle="Warranty registration" 
                 homePageUrl="/" 
-                homePageText="Home" 
-                activePageText="Contact" 
+                homePageText="Warranty Register" 
+                activePageText="Request a Warranty Registration" 
                 imgClass="bg-19" 
             /> 
             <ContactForm />
