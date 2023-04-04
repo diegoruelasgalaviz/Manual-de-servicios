@@ -8,7 +8,7 @@ const Contact = () => {
     return (
         <React.Fragment>
             <Navbar />
-           
+        
             <ContactForm />
             <Footer />
         </React.Fragment>
