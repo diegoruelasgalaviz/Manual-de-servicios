@@ -11,16 +11,14 @@ import '../public/css/style.css'
 import '../public/css/responsive.css'
 
 import Layout from '../components/_App/Layout';
-import { Provider } from 'react-redux'
+import { AuthUserProvider } from '../context/AuthUserContext';
 import { useStore } from '../store/reducers/reducers'
 
 const MyApp =  ({ Component, pageProps }) => {
     const store = useStore(pageProps.initialReduxState)
     return (
         <Layout>
-            <Provider store={store}>
-                <Component {...pageProps} />
-            </Provider>
+            <AuthUserProvider><Component {...pageProps} /></AuthUserProvider>
         </Layout>
     )
 }
